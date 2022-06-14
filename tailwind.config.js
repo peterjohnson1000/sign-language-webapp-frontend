@@ -34,6 +34,7 @@ module.exports = {
       animation: {
         wiggle: "wiggle 7s ease-in-out infinite",
         "fade-in-down": "fade-in-down 5s ease-in infinite",
+        letsgo: "1s ease-in-out",
       },
     },
     colors: colors,

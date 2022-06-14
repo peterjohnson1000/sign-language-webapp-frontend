@@ -6,7 +6,7 @@ const Hero = () => {
           <div className="">
             <img
               src="./images/Hello.png"
-              className="animate-wiggle"
+              className=""
               style={{ width: "5000px" }}
             />
           </div>
@@ -16,7 +16,7 @@ const Hero = () => {
           <div>
             <img
               src="./images/Victory.png"
-              className="rotate-350" //animate-fade-in-down
+              className="rotate-350"
               style={{ width: "3500px" }}
             />
           </div>
@@ -27,6 +27,17 @@ const Hero = () => {
               style={{ width: "4500px" }}
             />
           </div>
+        </div>
+        <div className="text-center">
+          <h1 className="text-8xl pb-5">Fingerspelling</h1>
+          <p className="text-lg">
+            Learn the Americal Sign Language With machine Learning
+          </p>
+        </div>
+        <div className="text-center pt-10">
+          <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
+            Let’s go
+          </button>
         </div>
       </div>
     </div>
