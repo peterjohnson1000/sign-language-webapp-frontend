@@ -35,9 +35,14 @@ const Hero = () => {
         </p>
       </div>
       <div className="text-center pt-10">
-        <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
-          <Link to="/Hand">Let’s go</Link>
-        </button>
+        {/* <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
+          </button> */}
+        <Link
+          to="/Hand"
+          className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white"
+        >
+          Let’s go
+        </Link>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hand = () => {
   return (
     <div className="text-mainTextC h-screen">
@@ -20,9 +22,14 @@ const Hand = () => {
         <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full mr-20  hover:bg-white">
           Left
         </button>
-        <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
+        {/* <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
+        </button> */}
+        <Link
+          to="/Main"
+          className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white"
+        >
           Right
-        </button>
+        </Link>
       </div>
     </div>
   );
