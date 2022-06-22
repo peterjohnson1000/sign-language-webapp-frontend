@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <div className=" text-mainTextC h-screen">
+    <div className=" text-mainTextC h-screen testing">
       <div className="flex">
         <div className="">
           <img
@@ -35,8 +35,6 @@ const Hero = () => {
         </p>
       </div>
       <div className="text-center pt-10">
-        {/* <button className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white">
-          </button> */}
         <Link
           to="/Hand"
           className="bg-mainTextC text-backgroundC py-5 px-20 rounded-full  hover:bg-white"
